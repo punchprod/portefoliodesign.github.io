@@ -1,0 +1,52 @@
+<!doctype html> qui permet de dire au navigateur " vas-y, je vais coder du html ! "
+<html> c'est la même :^p
+<meta .. est compliquer, une balise meta permet de donné des infos en plus,
+
+charset ( l'encodage )
+author ( l'auteur du développement )
+description ( la description du site )
+
+Je n'est pas rajouter keynote, car ces un peu la même que description mais en sorte de tags.
+
+<link rel="stylesheet" type="text/css" href="fichier.css">
+cette balise permet de connecter le html & le css, oui rappeler vous je vous avez dit que le css et le html été séparé! :)
+
+puis la balise </head> qui veux dire qu'on ferme la balise ! :)
+
+<> on ouvre la balise
+</> on ferme la balise ! :)
+
+c'est pas si dur que ça :)
+
+puis on continu avec body qui est la tête du site ! :)
+
+<p> est une balise qui permet d'écrire un paragraphe.
+<h1> est une balise qui permet d'écrire un titre.
+
+h1 est assez cool car on peu écrire un text plus petit comme h2, h3.. ( ça va jusqu'à h6 ).
+
+Puis on ferme la balise de <body> = </body>
+puis on ferme la dernière balise " html "
+
+
+color = couleur de texte
+<link rel="stylesheet" type="text/css" href="fichier.css"> = Relier HTML/CSS
+background = fond
+background: color = Couleur sur fond
+Background: url('LIEN') = Lien de l'image de fond
+Border-radius: 2px = Ce sont les bord arrondis (jai mis par exemple 2px ce qui est peu) plus le nombre de px est grand plus les arrondies seront important
+border: 1px solid black = Cela veut dire que le bord sera entourer de 1px en couleur noir (black = noir en anglais)
+height: = hauteur de votre sujet
+width: = Largeur de votre sujet
+padding: = Espace interne de votre sujet
+cursor: = Différent curseur que l'on peut mettre
+float: = Ou situer votre sujet (exemple: float:left (left = gauche en anglais, alors votre sujet sa eetre situer a gauche)
+margin-top: déscendre votre sujet en px
+margin-bottom: monter votre sujet en px
+margin-left: déplacer votre sujet vers la droite;
+margin-right: déplacer votre sujet vers la gauche
+border-bottom: 1px solid black = seul le bord du bas de votre sujet va etre modifier
+exemple: text-align:left (aligner le text a gauche)
+opacity:0 = invisible .. ( mettre entre 0 et 1 )
+/* CACHER DU TEXT */ = Cacher du text celui-ci sera disponnible seulement sur la code*
+
