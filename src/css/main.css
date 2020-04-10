@@ -30,7 +30,7 @@ HEADER
 }
 
 .header .header-logo {
-    color: #ffffff;
+    color: #001e63;
     font-family: 'Montserrat', sans-serif;
     float: left;
     margin-left: 30px;
@@ -71,7 +71,7 @@ BANNER
 
 .banner .banner-content h1,
 .banner .banner-content h2 {
-    color: #ffffff;
+    color: #001e63;
 }
 
 /*
