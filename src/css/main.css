@@ -23,7 +23,7 @@ HEADER
     margin-right: 0;
     height: 70px;
     line-height: 70px;
-    background-color: #ffffff;
+    background-color: rgba(0,0,0,0);
     position: fixed;
     top: 0;
     z-index: 999;
