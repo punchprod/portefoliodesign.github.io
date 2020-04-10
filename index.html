@@ -1,1 +1,216 @@
-index
+<!DOCTYPE html>
+<html>
+
+<!-- head -->
+
+<head>
+<meta charset="utf-8">
+<title>Site exemple</title>
+
+<!-- CSS -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bulma/0.7.5/css/bulma.min.css">
+<link rel="stylesheet" href="src/css/main.css">
+<!-- CSS -->
+
+<!-- Font -->
+<link href="https://fonts.googleapis.com/css?family=Montserrat&display=swap" rel="stylesheet">
+<script src="https://kit.fontawesome.com/6004b48e9b.js"></script>
+<!-- Font -->
+
+<!-- head -->
+
+<!-- body -->
+<body>
+<!--header-->
+ <header> 
+    <div class="block">
+        <header class="header">
+            <a href="#" class="header-logo">Mon portfolio</a>
+            <nav class="header-menu">
+                <a href="a">Acceuil</a>
+                <a href="a">A propos</a>  
+                <a href="a">Mes travaux</a> 
+                <a href="a">Contactez-nous</a> 
+
+            </nav>
+    </header>
+ </div>
+<!--header-->
+
+<!-- banniere -->
+ <div class="block">
+    <div class="banner">
+        <img src="src/img/bg.jpeg.jpg" alt="un ordinateur avec du code" class="banner-image">
+        <div class="banner-content">  
+            <h1 class="title is-1">Ben Ahmida Ayoub</h1>
+            <h2 class="subtitle">Decovrez mon travail et mon univers</h2>
+            <button class="button is-link" id="open_modal"> Contactez-moi c'est ici !</button>
+        </div>
+
+    </div>
+ </div>
+<!-- banniere -->
+
+        <!-- Modal -->
+        <div class="modal own-modal" id="modal_to_open">
+            <div class="modal-background"></div>
+            <div class="modal-card">
+              <header class="modal-card-head">
+                <p class="modal-card-title">Modal title</p>
+                <button class="delete" aria-label="close" id="close_modal"></button>
+              </header>
+              <section class="modal-card-body">
+                <p> 
+                  les information du contact
+                </p>
+              </section>
+              <footer class="modal-card-foot">
+                <button class="button is-link">Save changes</button>
+              </footer>
+            </div>
+          </div>
+        <!-- Modal -->
+
+<!-- Section : A propos -->
+<div class="block">
+  <h2 class="subtitle heading-site"><b>A propos</b></h2>
+    <div class="container about">
+        <div class="columns"></div>
+            <div class="column about-single-element">
+                      <i class="fab fa-discord icon"></i>
+                       <p>
+
+                           Nous avanons creer un serveur discord pour fortifier notre communauté !
+                           test test
+
+                       </p>
+                    </div>
+                    <div class="column about-single-element">
+                      <i class="fab fa-twitch icon"></i>
+                       <p>
+
+                           N'oublie pas de nous soutenir sur twitch! test test
+
+                       </p>
+                    </div>
+                    <div class="column about-single-element">
+                      <i class="fab fa-bitcoin icon"></i>
+                      <p> 
+                          
+                        tu peux nous soutenir avec des don en cryptomonnaie !
+
+                      </p>
+                    </div>
+    </div>
+</div>
+<!-- Section : A propos -->
+
+<!-- Portfolio -->
+
+<div class="block">
+    <h2 class="subtitle heading-site"><b>Mon portfolio</b></h2>
+    <div class="container">
+            <div class="tile is-ancestor">
+                    <div class="tile is-parent">
+                           
+                      <article class="tile is-child box">
+                        <p class="title">presentation</p>
+                        <p class="subtitle">Armatis haec fallaciis communi carpento extra passurum privato muros inquit et tunica armatis umbratis inpositum
+                                           iam crebritate muros exsurge inquit ubi iurandi inpositum obscuro inpositum Constantini sed 
+                                            eum qua indumentis accepimus circumdedit quondam exsurge principis statim et regiis accepimus ubi.</p>
+                      </article>
+                       
+                    </div>
+                    <div class="tile is-parent">
+                      <article class="tile is-child box">
+                        <p class="title">Nouveaux themes</p>
+                        <p class="subtitle">Armatis haec fallaciis communi carpento extra passurum privato muros inquit et tunica armatis umbratis inpositum
+                            iam crebritate muros exsurge inquit ubi iurandi inpositum obscuro inpositum Constantini sed 
+                             eum qua indumentis accepimus circumdedit quondam exsurge principis statim et regiis accepimus ubi.</p>
+                      </article>
+                    </div>
+                        <div class="tile is-parent">
+                                <article class="tile is-child">
+                                      <div class="title">Notifications</div>
+                                        <div class="notification is-warning">
+                                            Armatis haec fallaciis communi carpento extra passurum privato muros inquit et tunica armatis umbratis inpositum
+                                           iam crebritate muros exsurge inquit ubi iurandi inpositum obscuro inpositum Constantini sed 
+                                            eum qua indumentis accepimus circumdedit quondam exsurge principis statim et regiis accepimus ubi.
+                                        </div>
+                                      </div>
+                      </article>
+                    </div>
+                  </div>
+                  <div class="tile is-parent is-8">
+                        <article class="tile is-child box">
+                          <p class="title">Presentation en image</p>
+                          <p class="subtitle">Cette image montre un logiciel de code html</p>
+                          <img src="src/img/bg.jpeg.jpg">
+                        </article>
+                      </div>
+                      </article>
+                    </div>
+                </div>
+    </div>    
+</div>
+
+<!-- Portfolio -->
+
+<!-- Contact -->
+<div class="block">
+ <footer class="footer">
+  <h2 class="subtitle heading-site"><b>Contactez-nous</b></h2>
+   <div class="footer-contact-form">
+     <form>
+        <div class="field">
+            <label class="label">Votre nom</label>
+            <div class="control">
+              <input class="input" type="text" placeholder="Votre nom">
+            </div>
+          </div>
+          <div class="field">
+              <label class="label">Votre prénom</label>
+              <div class="control">
+                <input class="input" type="text" placeholder="Votre prénom">
+              </div>
+            </div>
+            <div class="field">
+                <label class="label">Votre email</label>
+                <div class="control">
+                  <input class="input" type="text" placeholder="Votre email">
+                </div>
+              </div>
+              <div class="field">
+                  <label class="label">Votre message</label>
+                  <div class="control">
+                      <textarea class="textarea" placeholder="Que voulez-vous?"></textarea>
+                  </div>
+                </div>
+     </form>
+   </div>
+    <div class="footer-informations">
+      <p> sociaux </p>
+      <p> Discord: Na.Serv.Disc </p>
+      <ul>
+          <li>
+            <a href="#"></a>
+            <i class="fas fa-server"></i>
+          </li> 
+         </ul>
+    </div>
+ </footer>
+</div>
+
+
+<!-- Conctact -->
+
+
+
+</div>
+
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
+  <script src="src/js/main.js"></script>
+</body>
+<!-- body -->
+</html>
