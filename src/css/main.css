@@ -54,6 +54,7 @@ color: #001e63;
 /*
 BANNER 
 */
+
 .banner {
     margin-top: -20px;
 }
@@ -80,6 +81,7 @@ BANNER
     height: 266px;
     left: 616px;
     top: 15px;
+    z-index: auto;
 }
 /*
 ABOUT
