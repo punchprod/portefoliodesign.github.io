@@ -75,11 +75,9 @@ BANNER
 }
 
 .is-rounded {
-    width: 310px;
-    height: 310px;
+    z-index: 2 ;
+    
 }
-
-
 /*
 ABOUT
 */
