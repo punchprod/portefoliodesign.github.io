@@ -74,6 +74,12 @@ BANNER
     color: #001e63;
 }
 
+.is-rounded {
+    width: 310px;
+    height: 310px;
+}
+
+
 /*
 ABOUT
 */
