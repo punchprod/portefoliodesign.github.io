@@ -85,6 +85,7 @@ BANNER
 
 .is-rounded {
     position: absolute;  
+    text-align: center;
     width: 266px;
     height: 266px;
     right: 821px;
