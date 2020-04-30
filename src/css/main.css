@@ -26,7 +26,7 @@ HEADER
     background-color: rgb(255, 255, 255);
     position: fixed;
     top: 0;
-    box-shadow: 12px 12px 2px 1px rgba(0, 0, 255, .2);;
+    box-shadow: 2px 5px 2px 1px rgba(0, 0, 255, .2);;
     z-index: 999;
 }
 
@@ -75,7 +75,7 @@ BANNER
     position: absolute;
     width: 100%;
     text-align: center;
-    top: 30%;
+    top: 34%;
 }
 
 .banner .banner-content h1,
@@ -88,7 +88,7 @@ BANNER
     width: 266px;
     height: 266px;
     right: 821px;
-    top: -300px;
+    top: -258px;
     margin-top: 0px;
 }
 /*
