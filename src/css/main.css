@@ -55,6 +55,13 @@ color: #001e63;
 BANNER 
 */
 
+.block {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+
 .banner {
     margin-top: -20px;
 }
@@ -76,12 +83,12 @@ BANNER
 }
 
 .is-rounded {
-    position: relative;  
+    position: absolute;  
     width: 266px;
     height: 266px;
-    left: 616px;
-    top: 15px;
-    z-index: auto;
+    left: 800px;
+    top: 0px;
+    margin-top: 0px;
 }
 /*
 ABOUT
