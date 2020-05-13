@@ -60,15 +60,16 @@ BANNER
     display: block;
     margin-left: auto;
     margin-right: auto;
+    position: relative;
 
 }
 
 .banner {
-    position: relative; 
+    margin-top: -20px;
 }
 
 .banner .banner-image {
-    position: relative;
+    position: absolute;
 }
 
 .banner .banner-content {
@@ -81,15 +82,20 @@ BANNER
 .banner .banner-content h1,
 .banner .banner-content h2 {
     color: #001e63;
+    top: 300px;
+    position: absolute;
+    text-align: center;
+    width: 30%;
+    left: 30%;
 }
 
 .is-rounded {
-    position: absolute;  
+    position: absolute;
+    left: 42.5%;
     text-align: center;
-    width: 266px;
+    width: 15%;
     height: 266px;
-    right: 821px;
-    top: -258px;
+    top: 0px;
     margin-top: 0px;
 }
 /*
@@ -109,6 +115,14 @@ ABOUT
     margin-top: 20px;
 }
 
+/*
+projets
+*/
+
+.block1 {
+    position: relative;
+    top: 600px;
+}
 /*
 FOOTER
 */
@@ -130,4 +144,21 @@ MODAL
 .own-modal {
     padding-top: 120px;
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*
+RESPONSIVE 
+*/
+@media screen and (max-width: 800px) {
 
